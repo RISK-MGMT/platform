@@ -1,2 +1,8 @@
-# public
-Public code that downloads and saves data, queries the data for answers to questions, and contains no custom configurations
+# RISK MGMT Platform
+
+An options trading engine
+
+## Resources
+
+- [Architecture](./ARCHITECTURE.md)
+- [Contributing](./CONTRIBUTING.md)
