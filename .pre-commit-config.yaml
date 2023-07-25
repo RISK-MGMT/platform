@@ -1,5 +1,10 @@
 repos:
-  - repo: https://github.com/psf/black
+  - repo: https://github.com/psf/black.git
     rev: 193ee766ca496871f93621d6b58d57a6564ff81b # 23.7.0
     hooks:
-    - id: black
+      - id: black
+
+  - repo: https://github.com/pylint-dev/pylint.git
+    rev: fc34a4b6abe56f3ac07ca15d846b1c1955545f85 # v2.17.4
+    hooks:
+      - id: pylint
