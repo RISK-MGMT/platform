@@ -16,11 +16,12 @@ Tools:
 
 - [Bandit](https://bandit.readthedocs.io/) for detecting security issues
 - [Black](https://black.readthedocs.io/) for code formatting
+- [Coverage](https://coverage.readthedocs.io/) for assessing test coverage
+- [Gitleaks](https://gitleaks.io/) for secrets detection
+- [Pre-commit](https://pre-commit.com/) to automate checking the code
 - [Pylint](https://black.readthedocs.io/) for enforcing standards and
   encouraging best practices
 - [Unittest](https://docs.python.org/3/library/unittest.html) for unit tests
-- [Coverage](https://coverage.readthedocs.io/) for assessing test coverage
-- [Pre-commit](https://pre-commit.com/) to automate checking the code
 
 ### Code Formatting
 
@@ -112,6 +113,7 @@ Tools:
 - Avoid storing sensitive information, such as passwords, in plain text. Use
   secure storage mechanisms.
 - Run SAST tools like **bandit** on the code to detect common security issues.
+- Scan your code for accidently included secrets.
 
 ### Performance
 
