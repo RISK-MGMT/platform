@@ -54,8 +54,8 @@ Tools:
   [pydoc](https://docs.python.org/3/library/pydoc.html).
 - Long form docs should be added as markdown files in the
   [docs folder](./docs).
-- Avoid docstrings that effectivly restate the name of the function. If that's
-  all that makes sense in the docstring, it can be ommited.
+- Avoid docstrings that effectively restate the name of the function. If that's
+  all that makes sense in the docstring, it can be omitted.
 
 ### Functions and Methods
 
@@ -78,7 +78,7 @@ Tools:
 
 ### Logging
 
-- At a minimum include enough logging statments to be able to:
+- At a minimum include enough logging statements to be able to:
   - Debug an issue
   - Detect malicious activity
   - Observe the general operation of the code
@@ -101,12 +101,12 @@ Tools:
 - Use the **unittest** library to organize and run tests.
 - Use **coverage** to assess test coverage.
 - Aim for high test coverage, but more importantly make sure the tests provide value:
-  - If you broke a function, the unittests should catch it.
+  - If you broke a function, the unit tests should catch it.
   - Help catch unexpected changes to logic.
 
 ### Security
 
-- Sanitize user inputs to prevent injection attacts and other security
+- Sanitize user inputs to prevent injection attacks and other security
   vulnerabilities.
 - Use **parameterized queries** when dealing with databases.
 - Avoid storing sensitive information, such as passwords, in plain text. Use
@@ -127,7 +127,7 @@ Tools:
   - Aim to make separate commits for each logical change.
   - The first line should be 50 characters or less.
   - The rest of the message should be separated by an empty line and wrapped at 72 characters.
-  - Title should be imparitive from (e.g. "Add new feature" instead of "Added a new feature").
+  - Title should be imperative from (e.g. "Add new feature" instead of "Added a new feature").
 
 ### Miscellaneous
 
